@@ -13,6 +13,7 @@
 		5B8134052767D11F007C6CDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8134032767D11F007C6CDC /* Main.storyboard */; };
 		5B8134072767D122007C6CDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B8134062767D122007C6CDC /* Assets.xcassets */; };
 		5B81340A2767D122007C6CDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8134082767D122007C6CDC /* LaunchScreen.storyboard */; };
+		5B8134132767D1BA007C6CDC /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8134122767D1BA007C6CDC /* FaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5B8134062767D122007C6CDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B8134092767D122007C6CDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B81340B2767D122007C6CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B8134122767D1BA007C6CDC /* FaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,24 @@
 		5B8133FC2767D11F007C6CDC /* FaceIt */ = {
 			isa = PBXGroup;
 			children = (
+				5B8134112767D150007C6CDC /* Supporting Files */,
+				5B8134012767D11F007C6CDC /* ViewController.swift */,
+				5B8134122767D1BA007C6CDC /* FaceView.swift */,
+				5B8134032767D11F007C6CDC /* Main.storyboard */,
+			);
+			path = FaceIt;
+			sourceTree = "<group>";
+		};
+		5B8134112767D150007C6CDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				5B8133FD2767D11F007C6CDC /* AppDelegate.swift */,
 				5B8133FF2767D11F007C6CDC /* SceneDelegate.swift */,
-				5B8134012767D11F007C6CDC /* ViewController.swift */,
-				5B8134032767D11F007C6CDC /* Main.storyboard */,
 				5B8134062767D122007C6CDC /* Assets.xcassets */,
 				5B8134082767D122007C6CDC /* LaunchScreen.storyboard */,
 				5B81340B2767D122007C6CDC /* Info.plist */,
 			);
-			path = FaceIt;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				5B8134022767D11F007C6CDC /* ViewController.swift in Sources */,
 				5B8133FE2767D11F007C6CDC /* AppDelegate.swift in Sources */,
 				5B8134002767D11F007C6CDC /* SceneDelegate.swift in Sources */,
+				5B8134132767D1BA007C6CDC /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +303,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q9G7877T76;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FaceIt/Info.plist;
+				INFOPLIST_FILE = "FaceIt/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,7 +331,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q9G7877T76;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FaceIt/Info.plist;
+				INFOPLIST_FILE = "FaceIt/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
