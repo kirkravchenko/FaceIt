@@ -14,6 +14,7 @@
 		5B8134072767D122007C6CDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B8134062767D122007C6CDC /* Assets.xcassets */; };
 		5B81340A2767D122007C6CDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8134082767D122007C6CDC /* LaunchScreen.storyboard */; };
 		5B8134132767D1BA007C6CDC /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8134122767D1BA007C6CDC /* FaceView.swift */; };
+		5BEB2DE927689FD3008AC419 /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEB2DE827689FD3008AC419 /* FacialExpression.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5B8134092767D122007C6CDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B81340B2767D122007C6CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B8134122767D1BA007C6CDC /* FaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		5BEB2DE827689FD3008AC419 /* FacialExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				5B8134112767D150007C6CDC /* Supporting Files */,
 				5B8134012767D11F007C6CDC /* ViewController.swift */,
+				5BEB2DE827689FD3008AC419 /* FacialExpression.swift */,
 				5B8134122767D1BA007C6CDC /* FaceView.swift */,
 				5B8134032767D11F007C6CDC /* Main.storyboard */,
 			);
@@ -151,6 +154,7 @@
 			files = (
 				5B8134022767D11F007C6CDC /* ViewController.swift in Sources */,
 				5B8133FE2767D11F007C6CDC /* AppDelegate.swift in Sources */,
+				5BEB2DE927689FD3008AC419 /* FacialExpression.swift in Sources */,
 				5B8134002767D11F007C6CDC /* SceneDelegate.swift in Sources */,
 				5B8134132767D1BA007C6CDC /* FaceView.swift in Sources */,
 			);
